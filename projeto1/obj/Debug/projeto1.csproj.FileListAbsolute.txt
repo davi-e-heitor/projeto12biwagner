@@ -1,0 +1,10 @@
+F:\projeto wagner\2bi\projeto1\projeto1\bin\Debug\projeto1.exe.config
+F:\projeto wagner\2bi\projeto1\projeto1\bin\Debug\projeto1.exe
+F:\projeto wagner\2bi\projeto1\projeto1\bin\Debug\projeto1.pdb
+F:\projeto wagner\2bi\projeto1\projeto1\obj\Debug\projeto1.csproj.AssemblyReference.cache
+F:\projeto wagner\2bi\projeto1\projeto1\obj\Debug\projeto1.Form1.resources
+F:\projeto wagner\2bi\projeto1\projeto1\obj\Debug\projeto1.Properties.Resources.resources
+F:\projeto wagner\2bi\projeto1\projeto1\obj\Debug\projeto1.csproj.GenerateResource.cache
+F:\projeto wagner\2bi\projeto1\projeto1\obj\Debug\projeto1.csproj.CoreCompileInputs.cache
+F:\projeto wagner\2bi\projeto1\projeto1\obj\Debug\projeto1.exe
+F:\projeto wagner\2bi\projeto1\projeto1\obj\Debug\projeto1.pdb
