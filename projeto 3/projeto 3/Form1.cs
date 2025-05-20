@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace projeto_3
 {
-    public partial class Form1: Form
+    public partial class Form1 : Form
     {
         public Form1()
         {
@@ -20,24 +20,51 @@ namespace projeto_3
         private void button1_Click(object sender, EventArgs e)
         {
             int n = int.Parse(textBox1.Text);
-            int num = n;
-            int j = 2;
+            int numf = n;
+            string r = "";
+            textBox2.Clear();
 
-            while (j<=num)
+            while (n > 1)
             {
-                if (num % j == 0)
+                r += n.ToString() + "\n";
+
+                int divisor = 2;
+                while (divisor <= n)
                 {
-                    textBox2.AppendText(num.ToString() + Environment.NewLine);
-                    num /= j;
-                    
+                    if (n % divisor == 0)
+                    {
+                        n = n / divisor;
+                        break;
+                    }
+                    else
+                    {
+                        divisor++;
+                    }
                 }
-               
+            }
+
+
+            string linha = "";
+            for (int i = r.Length - 1; i >= 0; i--)
+            {
+                char c = r[i];
+
+                if (c == '\n')
+                {
+                    for (int j = linha.Length - 1; j >= 0; j--)
+                    {
+                        textBox2.AppendText(linha[j].ToString());
+                    }
+                    textBox2.AppendText(Environment.NewLine);
+                    linha = "";
+                }
                 else
                 {
-                    j++;
+                    linha += c;
                 }
-                
+
             }
+            textBox2.AppendText(numf.ToString());
         }
     }
 }
